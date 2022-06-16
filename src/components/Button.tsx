@@ -6,7 +6,11 @@ type ButtonProps = {
 
 const Button = (props: ButtonProps) => {
   return (
-    <button onClick={(event) => props.handleClick(event, 1)}>click</button>
+    <div>
+      <button onClick={(event) => props.handleClick(event, 1)}>click</button>
+      <button>Cilck me</button>
+    </div>
+
   );
 };
 
